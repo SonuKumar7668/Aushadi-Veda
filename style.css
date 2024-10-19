@@ -1,6 +1,80 @@
+:root{
+    --background-color:rgb(146, 232, 149);
+    --prime-color:green;
+    --hint-color:grey;
+}
 *{
     margin: 0px;
 }
+a{
+    text-decoration: none;
+}
+/* Header  */
+header{
+    /* background-color: aquamarine; */
+    /* height: 8vmin; */
+    background-color: var(--background-color)
+}
 .title{
     text-align: center;
+}
+.head{
+    display: flex;
+    /* background-color: red; */
+    /* justify-content: space-around; */
+    /* position: relative; */
+    /* right: 10px; */
+    /* align-items: center; */
+}
+.log{
+    position: absolute;
+    right: 3vmin;
+    margin: 2vmin;
+}
+.cont{
+    position: relative;
+    left: 5vmin;
+    margin: 2vmin;
+}
+.headcont{
+    margin: 0vmin 2vmin;
+}
+/* top screen section  */
+.topcont{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 80vw;
+    margin: auto;
+    background-image:url(images/aaron-burden-yzgF-AQt1sQ-unsplash.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    justify-content: center;
+}
+/* Menu  */
+.menu{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+    height: 15vh;
+    
+}
+.menucont{
+    margin: 10px;
+    background-color: var(--hint-color);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.mcont{
+    width: 40vmin;
+    text-align: center;
+}
+#more{
+    background-color: var(--prime-color);
 }
