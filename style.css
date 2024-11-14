@@ -1,80 +1,142 @@
-:root{
-    --background-color:rgb(146, 232, 149);
-    --prime-color:green;
-    --hint-color:grey;
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-*{
-    margin: 0px;
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7dbd2e;
+  padding: 20px;
+  color: white;
 }
-a{
-    text-decoration: none;
+
+h2{
+  text-align: center;
 }
-/* Header  */
-header{
-    /* background-color: aquamarine; */
-    /* height: 8vmin; */
-    background-color: var(--background-color)
+header .logo h1 {
+  margin: 0;
 }
-.title{
-    text-align: center;
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
-.head{
-    display: flex;
-    /* background-color: red; */
-    /* justify-content: space-around; */
-    /* position: relative; */
-    /* right: 10px; */
-    /* align-items: center; */
+
+header nav ul li {
+  display: inline;
 }
-.log{
-    position: absolute;
-    right: 3vmin;
-    margin: 2vmin;
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
 }
-.cont{
-    position: relative;
-    left: 5vmin;
-    margin: 2vmin;
+
+img{
+  object-fit: cover;
 }
-.headcont{
-    margin: 0vmin 2vmin;
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #c3e28d;
 }
-/* top screen section  */
-.topcont{
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    width: 80vw;
-    margin: auto;
-    background-image:url(images/aaron-burden-yzgF-AQt1sQ-unsplash.jpg);
-    background-size: 100% 100%;
-    text-align: center;
-    justify-content: center;
+
+.hero-content h2 {
+  font-size: 48px;
+  margin: 0;
 }
-/* Menu  */
-.menu{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    width: 80vw;
-    height: 15vh;
-    
+
+.hero-content p {
+  font-size: 24px;
 }
-.menucont{
-    margin: 10px;
-    background-color: var(--hint-color);
-    padding: 15px;
-    border-radius: 15px;
-    display: flex;
-    width: 60vw;
-    align-items: center;
-    margin: auto;
-    justify-content: space-between;
+
+.hero-image{
+  width: 100%;
+  height: 30vh;
+} 
+
+.img{
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
 }
-.mcont{
-    width: 40vmin;
-    text-align: center;
+
+.hero-buttons button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
 }
-#more{
-    background-color: var(--prime-color);
+
+/* Article Section */
+.articles {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  height:fit-content;
+}
+
+.article {
+  text-align: center;
+  width: 200px;
+  height:fit-content;
+}
+
+.article img {
+  width: 100%;
+  border-radius: 10px;
+  height: 30vh;
+}
+
+/* Icons Section */
+.icon-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  padding: 10px;
+  background-color: #7dbd2e;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+/* Plant Recommendations */
+.plants {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+}
+
+.plant-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px auto;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #7dbd2e;
+  color: white;
 }
