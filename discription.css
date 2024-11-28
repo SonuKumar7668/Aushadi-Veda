@@ -58,6 +58,13 @@ option{
   background-color: #7dbd2e;
 }
 
+#search{
+  /* background: transparent; */
+  border: none;
+  border-radius: 5px;
+  height: 100%;
+}
+
 /* left Section  */
 .content{
     display: flex;

@@ -15,11 +15,19 @@ header {
   color: white;
 }
 
+section h2{
+  text-align: center;
+  color: wheat;
+}
 h2{
   text-align: center;
 }
 header .logo h1 {
   margin: 0;
+}
+header a{
+  text-decoration: none;
+  color: white;
 }
 
 header nav ul {
@@ -37,6 +45,10 @@ header nav ul li a {
   color: white;
 }
 
+section p{
+  color: white;
+}
+
 img{
   object-fit: cover;
 }
@@ -45,7 +57,8 @@ img{
   display: flex;
   justify-content: space-between;
   padding: 40px;
-  background-color: #c3e28d;
+  background-image: url(images/neamwonders.webp);
+  background-size: cover;
 }
 
 .hero-content h2 {
@@ -94,6 +107,10 @@ img{
   width: 100%;
   border-radius: 10px;
   height: 30vh;
+}
+.articles a{
+  margin: auto 0px;
+  text-decoration: none;
 }
 
 /* Icons Section */
