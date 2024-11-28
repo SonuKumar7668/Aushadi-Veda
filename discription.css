@@ -1,4 +1,7 @@
 /* Global Styles */
+*{
+  text-align: justify;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -41,29 +44,48 @@ header nav ul li a {
 img{
   object-fit: cover;
 }
+/* table style  */
+td{
+  /* background-color: red; */
+  /* padding: 7px; */
+}
+select{
+  background: transparent;
+  border: none;
+  color: white;
+}
+option{
+  background-color: #7dbd2e;
+}
 
 /* left Section  */
 .content{
     display: flex;
     margin: 10px;
     justify-content: space-between;
-    height: 90vh;
+    height: 80vh;
 }
 .left{
     display: flex;
-    border: 1px solid black;
-    width: 48%;
+    /* border: 1px solid black; */
+    width: 40%;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    box-shadow: 1px 20px 40px gray;
 }
 .left img{
     margin-top: 5vh;
-    width: 80%;
-    height: 40vh;
+    width: 60%;
+    /* height: 90%; */
+    background-size: inherit;
 }
 .right{
-    border: 1px solid black;
-    width: 48%;
+    /* border: 1px solid black; */
+    width: 55%;
     padding: 4px;
+    overflow-y: auto;
+}
+#last{
+  color: rgb(134, 0, 0);
 }
