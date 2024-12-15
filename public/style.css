@@ -5,7 +5,19 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+.chatbot{
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  background-color: #7dbd2e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.chatbot a{
+  text-decoration: none;
+  color: white;
+}
 /* Header */
 header {
   display: flex;
@@ -124,6 +136,29 @@ img{
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+select{
+  background: transparent;
+  border: none;
+  color: white;
+}
+option{
+  background-color: #7dbd2e;
+}
+
+#search{
+  /* background: transparent; */
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+}
+#btn{
+  height: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 .icon {

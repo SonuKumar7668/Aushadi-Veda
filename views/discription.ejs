@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plant</title>
+    <link rel="stylesheet" href="discription.css">
+</head>
+<body>
+        <!-- Header -->
+        <%- include("header.ejs") %>
+        <%- include("chatbot.ejs") %>
+        <main>
+            <div class="content">
+            <div class="left">
+                <img src="<%= result.originalimage.source %>" alt="....">
+            </div>
+            <div class="right">
+                <h2><%- result.titles.display %></h2>
+                <h3>Type: <%-result.type%></h3>
+              <h3>Discription : <%-result.description%></h3>
+              <%- result.extract_html %>
+            </div>
+        </main>
+        <script>
+            document.getElementById('dropdown').addEventListener('change', function() {
+              var url = this.value;
+              if (url) {
+                window.location.href = url;  // Redirects to the selected URL
+              }
+            });
+          </script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+  <!-- Header -->
+  <style>
+    #search{
+  /* background: transparent; */
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+}
+#btn{
+  height: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+  </style>
+  <header>
+    <div class="logo">
+    <h1><a href="http://localhost:8080/" target="_blank">Aushadi Veda</a></h1>
+    </div>
+    <nav>
+    <ul>
+        <li>
+            <form action="/title" method="get">
+                <input type="text" id="search" name="title" placeholder="search">
+                <button id="btn" type="submit">submit</button>
+            </form>
+        </li>
+        <li><select name="Featuress" id="dropdown">
+            <option value="">select</option>
+            <option value="grid.html">plant</option>
+            <option value="index.html">Yoga</option>
+            <option value="siddha">Siddha</option>
+            <option value="unani">Unani</option>
+            <option value="homio">Homiopathy</option>
+        </select>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><select name="profile" id="profile">
+            <option value="">Profile</option>
+            <option value="sign.html">Sign Up</option>
+            <option value="login.html">Login</option>
+        </select></li>
+    </ul>
+    </nav>
+</header>

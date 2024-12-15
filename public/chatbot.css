@@ -1,0 +1,13 @@
+.chatbot{
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    background-color: #7dbd2e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .chatbot a{
+    text-decoration: none;
+    color: white;
+  }

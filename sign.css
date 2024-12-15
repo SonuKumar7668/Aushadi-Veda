@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contain{
+    padding:25px;
+    margin: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    background-image:url(bg.jpg);
+    margin-left: 22px;
+}
+.head1{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-self: center;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+   
+
+}
