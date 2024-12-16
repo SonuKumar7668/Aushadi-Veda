@@ -38,14 +38,31 @@ app.get("/title", async (req,res)=>{
     let input=req.query.title;
     // console.log(input);
     let result=await wikisearch(input);
+    result.originalimage.source = result.originalimage.source || 'Image_unavailable.png';
     if(result==="error"){
         res.send("Cannot find this page");
     }else{
         res.render("discription.ejs",{result});
     }
-    console.log(result);
+    // console.log(result);
     }catch(error){
         // console.log(error);
-        res.send(input,"Not found");
+        res.send("Not found");
+    }
+});
+app.get("/title/:search", async (req,res)=>{
+    try{
+    let input=req.params.search;
+    console.log(input);
+    let result=await wikisearch(input);
+    // result.originalimage.source = result.originalimage.source || 'Image_unavailable.png';
+    if(result==="error"){
+        res.send("Cannot find this page");
+    }else{
+        res.render("discription.ejs",{result});
+    }
+    }catch(error){
+        console.log("this is error",error);
+        res.send("Not found");
     }
 });
