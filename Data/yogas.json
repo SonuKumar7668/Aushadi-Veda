@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Downward Dog",
+      "description": "An essential pose that stretches the entire body and strengthens the arms and legs.",
+      "image_url": "https://example.com/images/downward_dog.jpg"
+    },
+    {
+        "name": "Adho Mukha Svanasana",
+        "description": "Downward Dog: An essential pose that stretches the entire body and strengthens the arms and legs.",
+        "image_url": "https://example.com/images/adho_mukha_svanasana.jpg"
+    },
+    {
+        "name": "Utkatasana",
+        "description": "Chair Pose: A strengthening pose that engages the legs, core, and arms.",
+        "image_url": "https://example.com/images/utkatasana.jpg"
+    },
+    {
+        "name": "Trikonasana",
+        "description": "Triangle Pose: A pose that stretches the legs, hips, and spine, and opens the chest and shoulders.",
+        "image_url": "https://example.com/images/trikonasana.jpg"
+    },
+    {
+        "name": "Virabhadrasana",
+        "description": "Warrior I: A standing pose that improves focus, strength, and stability.",
+        "image_url": "https://example.com/images/virabhadrasana_i.jpg"
+    },
+    {
+        "name": "Bhujangasana",
+        "description": "Cobra Pose: A gentle backbend that stretches the abdomen, chest, and shoulders.",
+        "image_url": "https://example.com/images/bhujangasana.jpg"
+    },
+    {
+      "name": "Tree Pose",
+      "description": "A balancing pose that strengthens the legs and core while improving focus.",
+      "image_url": "https://example.com/images/tree_pose.jpg"
+    }
+  ]
+  

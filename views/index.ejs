@@ -21,67 +21,47 @@
   </section>
 
   <!-- Article Section -->
-      <h2>Explore</h2>
+      <h2>Plants</h2>
   <section class="articles">
+    <!-- </div> -->
+    <% let i=0 %>
+    <% for(plant of plants){  %>
     <div class="article">
-      <a href="http://localhost:8080/title/tulsi"><img src="/images/tulsi.webp" alt="Tulsi"></a>
-      <h3>Tulsi: The Holy Basil</h3>
+      <a href="http://localhost:8080/title/<%= plant.scientific_name %>"><img src="<%= plant.image_url %>" alt="Mint Tea"></a>
+      <h3><%= plant.name %></h3>
     </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/mint-tea.webp" alt="Mint Tea"></a>
-      <h3>Refreshing Mint Tea</h3>
-    </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/Lavender.jpg" alt="Lavender"></a>
-      <h3>Tea Time Tales</h3>
-    </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/aloe-vera.jpg" alt="Aloe Vera"></a>
-      <h3>Herbal Remedies: Aloe Vera Magic</h3>
-    </div>
-    <a href="grid.html">see more</a>
+    <% i++ %>
+    <% if(i===4){break} %>
+    <% } %>
+    <a href="http://localhost:8080/menu/plants">see more</a>
   </section>
   <!-- Article Section -->
-      <h2>Explore</h2>
+      <h2>Yoga</h2>
   <section class="articles">
+    <% i=0 %>
+    <% for(yoga of yogas){  %>
     <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/tulsi.webp" alt="Tulsi"></a>
-      <h3>Tulsi: The Holy Basil</h3>
+      <a href="http://localhost:8080/title/<%= yoga.name %>"><img src="<%= plant.image_url %>" alt="<%= yoga.name %>"></a>
+      <h3><%= yoga.name %></h3>
     </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/mint-tea.webp" alt="Mint Tea"></a>
-      <h3>Refreshing Mint Tea</h3>
-    </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/Lavender.jpg" alt="Lavender"></a>
-      <h3>Tea Time Tales</h3>
-    </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/aloe-vera.jpg" alt="Aloe Vera"></a>
-      <h3>Herbal Remedies: Aloe Vera Magic</h3>
-    </div>
-    <a href="grid.html">see more</a>
+    <% i++ %>
+    <% if(i===4){break} %>
+    <% } %>
+    <a href="http://localhost:8080/menu/yogas">see more</a>
   </section>
   <!-- Article Section -->
-      <h2>Explore</h2>
+      <h2>Siddha Medicine</h2>
   <section class="articles">
+    <% i=0 %>
+    <% for(siddha of siddhas){  %>
     <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/tulsi.webp" alt="Tulsi"></a>
-      <h3>Tulsi: The Holy Basil</h3>
+      <a href="http://localhost:8080/title/<%= siddha.name %>"><img src="<%= plant.image_url %>" alt="<%= siddha.name %>"></a>
+      <h3><%= siddha.name %></h3>
     </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/mint-tea.webp" alt="Mint Tea"></a>
-      <h3>Refreshing Mint Tea</h3>
-    </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/Lavender.jpg" alt="Lavender"></a>
-      <h3>Tea Time Tales</h3>
-    </div>
-    <div class="article">
-      <a href="http://localhost:8080/title"><img src="/images/aloe-vera.jpg" alt="Aloe Vera"></a>
-      <h3>Herbal Remedies: Aloe Vera Magic</h3>
-    </div>
-    <a href="grid.html">see more</a>
+    <% i++ %>
+    <% if(i===4){break} %>
+    <% } %>
+    <a href="http://localhost:8080/menu/siddhas">see more</a>
   </section>
   <!-- Article Section -->
       <h2>Explore</h2>

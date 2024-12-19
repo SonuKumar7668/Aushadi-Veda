@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Chyawanprash",
+      "description": "A traditional herbal formulation made from a combination of herbs, fruits, and spices. It is known to boost immunity, improve vitality, and promote longevity.",
+      "image_url": "https://example.com/images/chyawanprash.jpg"
+    },
+    {
+      "name": "Vallarai",
+      "description": "A herb used in Siddha medicine to improve memory, cognitive function, and mental clarity. It is often used in the treatment of stress and anxiety.",
+      "image_url": "https://example.com/images/vallarai.jpg"
+    },
+    {
+      "name": "Agasthiyar Kudineer",
+      "description": "A Siddha herbal drink used to treat cold, cough, and respiratory issues. It is made from a mixture of herbs and is known for its cooling properties.",
+      "image_url": "https://example.com/images/agasthiyar_kudineer.jpg"
+    },
+    {
+      "name": "Karisalankanni",
+      "description": "A plant used to treat liver ailments, improve digestion, and detoxify the body. It is also used for hair health and to promote growth.",
+      "image_url": "https://example.com/images/karisalankanni.jpg"
+    }
+  ]
+  

@@ -8,6 +8,10 @@ app.use(express.urlencoded({ extended : true }));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname,"views"));
 app.use(express.static(path.join(__dirname,"public")));
+const plants = require('./Data/plants.json');  // Replace './data.json' with the path to your JSON file
+const yogas = require('./Data/yogas.json');  // Replace './data.json' with the path to your JSON file
+const siddhas = require('./Data/siddhas.json');  // Replace './data.json' with the path to your JSON file
+// console.log(data);
 
 async function wikisearch (input) {
 	try {
@@ -30,7 +34,7 @@ app.listen(port,()=>{
 });
 
 app.get("/",(req,res)=>{
-    res.render("index.ejs");
+    res.render("index.ejs",{plants,yogas,siddhas});
 })
 
 app.get("/title", async (req,res)=>{
@@ -66,3 +70,17 @@ app.get("/title/:search", async (req,res)=>{
         res.send("Not found");
     }
 });
+
+app.get("/menu/:type", async(req,res)=>{
+    let type=req.params.type;
+    if(type==='plants'){
+    res.render("menu.ejs",{plants});
+    }else if(type==='yogas'){
+        res.render("menu.ejs",{yogas});
+    }else if(type==='siddhas'){
+        res.render===("menu.ejs",{siddhas});
+    }else{
+        res.send("Not found");
+    }
+    console.log(type);
+})

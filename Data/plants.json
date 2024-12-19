@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Rose",
+        "scientific_name": "Rose",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Rosa_rubiginosa_1.jpg"
+    },
+    {
+        "name": "Sunflower",
+        "scientific_name": "Helianthus",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg"
+    },
+    {
+        "name": "Tulip",
+        "scientific_name": "Tulipa",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG"
+    },
+    {
+        "name": "Lavender",
+        "scientific_name": "Lavandula",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Single_lavender_flower02.jpg"
+    },
+    {
+        "name": "Orchid",
+        "scientific_name": "Orchidaceae",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/White_orchid_in_Clara_bog._03.jpg/2268px-White_orchid_in_Clara_bog._03.jpg"
+    },
+    {
+        "name": "Cactus",
+        "scientific_name": "Cactaceae",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Various_Cactaceae.jpg"
+    },
+    {
+        "name": "Fern",
+        "scientific_name": "Pteridophyta",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Lycopodiella_inundata_001.jpg"
+    },
+    {
+        "name": "Bamboo",
+        "scientific_name": "Bambusoideae",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bamboo_forest.jpg"
+    }
+]
