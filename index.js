@@ -83,4 +83,8 @@ app.get("/menu/:type", async(req,res)=>{
         res.send("Not found");
     }
     console.log(type);
+});
+
+app.get("/visual",async(req,res)=>{
+    res.render("index1.ejs");
 })
